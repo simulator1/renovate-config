@@ -3,6 +3,7 @@
   "extends": [
     "npm:unpublishSafe",
     ":npm",
-    ":docker"
+    ":docker",
+    ":maintainLockFilesDisabled"
   ]
 }
